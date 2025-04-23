@@ -16,4 +16,5 @@ RUN chmod +x install.sh
 
 RUN ./install.sh
 
-CMD ["bash", "-c", "sleep 20 && ./gaianet"]
+CMD ./gaianet info
+
