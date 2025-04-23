@@ -16,7 +16,8 @@ RUN chmod +x install.sh
 
 RUN ./install.sh
 
-CMD ["ls", "-la", "./gaianet/bin"]
+CMD ["bash", "-c", "ls -la ~ && ls -la ~/gaianet && ls -la ~/gaianet/bin"]
+
 
 
 
