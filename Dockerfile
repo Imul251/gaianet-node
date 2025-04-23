@@ -16,6 +16,7 @@ RUN chmod +x install.sh
 
 RUN ./install.sh
 
-CMD ["/root/gaianet/bin/gaianet", "info"]
+CMD ["./gaianet/bin/gaianet", "info"]
+
 
 
